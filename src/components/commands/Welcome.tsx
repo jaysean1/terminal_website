@@ -15,36 +15,43 @@ const Welcome: React.FC = () => {
       <div className="info-section">
         <PreName>
           {`        
-    _____       __     _   __      _            
-   / ___/____ _/ /_   / | / /___ _(_)___  ____ _
-   \\__ \\/ __ \`/ __/  /  |/ / __ \`/ / __  / __ \`/
-  ___/ / /_/ / /_   / /|  / /_/ / / / / / /_/ / 
- /____/\\__,_/\\___/ /_/ |_/\\__,_/_/_/ /_/\\__, /  
-                                       /____/   
+   _____       _    ____  _             
+  / ___/__  __(_)  / __ \(_)___ _____   
+  \__ \/ / / / /  / / / / / __ \`/ __ \  
+ ___/ / /_/ / /  / /_/ / / /_/ / / / /  
+/____/\__,_/_/   \___\_/_/\__,_/_/ /_/   
+                                       
+                                       
           `}
         </PreName>
         <PreWrapper>
           <PreNameMobile>
             {`
-    ____     __          
-   / __/__ _/ /_         
-  _\\ \\/ _ \`/ __/         
- /___/\\_,_/\\__/          
-    _  __     _          
-   / |/ /__ _(_)__  ___ _
-  /    / _ \`/ / _ \\/ _ \`/
- /_/|_/\\_,_/_/_//_/\\_, / 
-                  /___/  
+   ____        _ 
+  / ___| _   _(_)
+  \___ \| | | | |
+   ___) | |_| | |
+  |____/ \__,_|_|
+                 
+   ____  _             
+  / __ \(_)___ _____   
+ / / / / / __ \`/ __ \  
+/ /_/ / / /_/ / / / /  
+\___\_/_/\__,_/_/ /_/   
  
           `}
           </PreNameMobile>
         </PreWrapper>
-        <div>Welcome to my terminal portfolio. (Version 1.3.1)</div>
+        <div>Welcome to Sui Qian's terminal portfolio. (Version 2.0.0)</div>
         <Seperator>----</Seperator>
         <div>
-          This project's source code can be found in this project's{" "}
-          <Link href="https://github.com/satnaing/terminal-portfolio">
-            GitHub repo
+          Visit my portfolio at{" "}
+          <Link href="https://jaysean1.github.io">
+            jaysean1.github.io
+          </Link>
+          {" "}or check out my projects at{" "}
+          <Link href="https://qiansui.notion.site">
+            qiansui.notion.site
           </Link>
           .
         </div>
@@ -56,23 +63,20 @@ const Welcome: React.FC = () => {
       <div className="illu-section">
         <PreImg>
           {`
-                       ,##,,eew,
-                     ,##############C
-                  a###############@##
-                 7####^\`^"7W7^"@####
-                 @#@b\`         ^@#@^
-                  ##^,,,,   ,,,,^#^
-                 ,,@######"#######=
-                  .''555"\` '5555b|
-                  T"@  ,,,^,mg,@,*
-                     %p||\`~~'.#\`
-                      ^Wp  ,#T
-                     :b''@@b^}
-                  ,^     \` 'b 3-
-              .<\` 'p   ^v   #   b   *.
-            {      }   #"GpGb   [
-            C      3 * @#######Nl      \`
-           '            ^@##b     ($    !
+            @@@@@@@@@    
+           @@@@@@@@@@@@  
+          @#+===+=*#@@@  
+     +== @%%@+=*%%#+#@@@ 
+   +==+# %****#*++#**@@@ 
+ %+====*#%***++*++***##* 
+*@*===+% *+*++==+==+**+= 
+#%%%**+=+%*+*++==+*#%#   
+#%#+===+++##*+++*#%%     
+ ###*++====*@@@%%@@%*    
+     ##*++===========+++ 
+       #*+++===========++
+        #*+++=====+++==+*
+        #*+++====++**===+
          `}
         </PreImg>
       </div>

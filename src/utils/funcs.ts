@@ -143,10 +143,10 @@ export const argTab = (
   // 8) if input is 'projects go '
   else if (_.startsWith(inputVal, "projects go ")) {
     [
-      "1.Sat Naing's Blog",
-      "2.Haru Fashion",
-      "3.Haru API",
-      "4.AstroPaper Blog Theme",
+      "1.Car Intelligent Cockpit Banma AliOS",
+      "2.AI-Hybrid Service Desk",
+      "3.Warehouse Video Intelligent Inspection Solution",
+      "4.In-Vehicle Citylife Service Cloud Application",
     ].forEach(t => {
       hintsCmds = [...hintsCmds, t];
     });

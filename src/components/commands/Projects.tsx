@@ -39,8 +39,8 @@ const Projects: React.FC = () => {
   ) : (
     <div data-testid="projects">
       <ProjectsIntro>
-        “Talk is cheap. Show me the code”? I got you. <br />
-        Here are some of my projects you shouldn't misss
+        Here are some of my key projects and products <br />
+        that showcase my expertise in AI and IoT solutions
       </ProjectsIntro>
       {projects.map(({ id, title, desc }) => (
         <ProjectContainer key={id}>
@@ -56,27 +56,27 @@ const Projects: React.FC = () => {
 const projects = [
   {
     id: 1,
-    title: "Sat Naing's Blog",
-    desc: "My personal blog where I can write down my thoughts and experiences.",
-    url: "https://satnaing.dev/blog/",
+    title: "Car Intelligent Cockpit Banma AliOS",
+    desc: "AI Voice Assistant for in-vehicle office work and traffic violation identification using visual perception.",
+    url: "https://jaysean1.github.io",
   },
   {
     id: 2,
-    title: "Haru Fashion",
-    desc: "An ecommerce web application where users can browse various products and make purchases.",
-    url: "https://haru-fashion.vercel.app/",
+    title: "AI-Hybrid Service Desk",
+    desc: "Crowdsourcing platform providing employment for 110,000+ disabled people, processing 200K daily consultations.",
+    url: "https://qiansui.notion.site",
   },
   {
     id: 3,
-    title: "Haru API",
-    desc: "A RESTful API developed for the Haru fashion ecommerce project.",
-    url: "https://satnaing.github.io/haru-api/",
+    title: "Warehouse Video Intelligent Inspection Solution",
+    desc: "IoT solution for e-commerce logistics, sold 50,000+ units, saved $24M annually with technology patent.",
+    url: "https://jaysean1.github.io",
   },
   {
     id: 4,
-    title: "AstroPaper Blog Theme",
-    desc: "A minimal, accessible and SEO-friendly Astro blog theme.",
-    url: "https://astro-paper.pages.dev/",
+    title: "In-Vehicle Citylife Service Cloud Application",
+    desc: "Cloud application covering 200,000 in-vehicle devices with 10% weekly active user rate.",
+    url: "https://qiansui.notion.site",
   },
 ];
 
